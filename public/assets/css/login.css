@@ -1,0 +1,120 @@
+@import url(./mainStyles.css);
+@import url(./adminHeader.css);
+@import url(./mainFooter.css);
+
+.main {
+    margin: var(--spacing-68) 0;
+}
+
+.section__title {
+    color: var(--dark-solid);
+    text-align: center;
+    font-family: var(--alternative-font);
+    font-size: var(--font-display);
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.68px;
+    padding: var(--spacing-36);
+}
+
+.section__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+
+.section__form-email {
+    display: flex;
+    gap: 120px;
+    padding: var(--spacing-12);
+}
+
+.section__form-password {
+    display: flex;
+    gap: 44px;
+    padding: var(--spacing-12);
+}
+
+.email__label {
+    color: var(--dark-solid);
+    text-align: right;
+    font-family: var(--base-font);
+    font-size: var(--font-large);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+
+}
+
+.section__form-password {
+    color: var(--dark-solid);
+    text-align: right;
+    font-family: var(--base-font);
+    font-size: var(--font-large);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+
+}
+
+
+.section__form-login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 45px;
+    padding: var(--spacing-16);
+}
+
+.login-button {
+    background-color: var(--primary-solid);
+    width: 102.995px;
+    height: 39.062px;
+    flex-shrink: 0;
+    color: var(--light-font-solid);
+    border: none;
+}
+
+.login-checkbox {
+    width: 16.275px;
+    height: 16.275px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 3px solid #1F1F1F;
+}
+
+.login-remember {
+    color: var(--dark-solid);
+    font-family: var(--base-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section__form-link {
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-solid);
+    font-family: var(--base-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: var(--spacing-20);
+}
+
+.email__input {
+    border: none;
+    outline: none;         
+    border-bottom: 2px solid var(--primary-solid);
+}
+
+.password__input {
+    border: none;
+    outline: none;         
+    border-bottom: 2px solid var(--primary-solid);
+}
